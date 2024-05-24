@@ -1,6 +1,6 @@
 pipeline {
     agent any
-
+      satges{
         stage('Build Artefact') {
             steps {
                sh 'mvn clean package -DskipTests=true'
